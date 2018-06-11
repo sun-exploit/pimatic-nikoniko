@@ -1,24 +1,23 @@
-{ "name": "pimatic-nikoniko",
+{
+  "name": "pimatic-nikoniko",
   "description": "NikoNiko Counter",
-  "author": "Cyril Jovet <cjovet@free.fr> (http://https://github.com/sun-exploit/CodeRoom)",
-  "main": "nikoniko",
+  "author": "Cyril Jovet <cjovet@free.fr> (http://https://github.com/sun-exploit)",
+  "main": "nikoniko.coffee",
   "files": [
     "nikoniko.coffee",
     "README.md",
     "nikoniko-config-schema.coffee"
   ],
-  "version": "0.8.0",
-  "homepage": "https://github.com/sun-exploit/CodeRoom",
-  "private": true,
+  "version": "0.8.2",
+  "homepage": "http://github.com/sun-exploit/pimatic-nikoniko",
   "repository": {
     "type": "git",
     "url": "git://github.com/sun-exploit/pimatic-nikoniko.git"
   },
   "configSchema": "nikoniko-config-schema.coffee",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": ">=0.8.0 <1.0.0"
   },
   "engines": {
     "node": ">0.8.x",
